@@ -9,14 +9,14 @@ pipeline {
       }
     }
     
-    stage('test1'){
-      steps{
+    stage('test1') {
+      steps {
         echo 'test1 test'
       }
     }
     
-    stage('deploy1'){
-      steps{
+    stage('deploy1') {
+      steps {
         echo 'deploy1 test
       }
     }
